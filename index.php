@@ -59,7 +59,9 @@ Web: macropuslab.com
 
       <div class="alert alert-info wow headShake" data-wow-duration="2s" data-wow-delay="1s" role="alert">
         PHP bootstrap
+        <button class="btn btn-light wow flash" type="button" data-clipboard-text="<?php echo $actuallink; ?>" data-toggle="tooltip" data-placement="bottom" title="Copy"><i class="far fa-copy"></i></button>
       </div>
+
 
       <lottie-player
           src="img/lottie/rocket.json"  class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s" background="transparent"  speed="1"  style="weight: 100%;"  loop  autoplay >
@@ -76,6 +78,7 @@ Web: macropuslab.com
     <script src="js/animate.js"></script>
     <script src="js/pace.min.js"></script>
     <script src="js/lottie-player.js"></script>
+    <script src="js/clipboard.min.js"></script>
 
     <script type="text/javascript" id="cookieinfo"
     		src="js/cookieinfo.min.js"
@@ -86,6 +89,18 @@ Web: macropuslab.com
     	data-text-align="left"
            data-close-text="I agree!">
     </script>
+
+    <script  type="text/javascript">
+var clipboard = new ClipboardJS('.btn');
+
+clipboard.on('success', function(e) {
+    console.log(e);
+});
+
+clipboard.on('error', function(e) {
+    console.log(e);
+});
+</script>
 
   </body>
 </html>

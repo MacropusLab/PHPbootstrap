@@ -12,8 +12,8 @@ Web: macropuslab.com
     <meta name="description" content="PHP bootstrap">
     <meta name="keywords" content="PHP,CSS,Bootstrap,JavaScript">
 
-    <meta name="og:title" content="The Rock"/>
-    <meta name="og:type" content="movie"/>
+    <meta name="og:title" content="PHP bootstrap"/>
+    <meta name="og:type" content="website"/>
     <meta name="og:url" content="<?php echo "$actuallink"; ?>"/>
     <meta name="og:image" content="img/ogimage.jpg"/>
     <meta name="og:site_name" content="PHP bootstrap"/>
@@ -51,21 +51,36 @@ Web: macropuslab.com
     <title>PHP bootstrap!</title>
   </head>
   <body>
+    <div id ="particles-js">
+    </div>
 
-    <div class="container text-center">
-      <i class="fab fa-php fa-10x wow zoomIn" data-wow-duration="2s" data-wow-delay="1s" style="color:Tomato"></i>
-
-      <hr>
-
-      <div class="alert alert-info wow headShake" data-wow-duration="2s" data-wow-delay="1s" role="alert">
-        PHP bootstrap
-        <button class="btn btn-light wow flash" type="button" data-clipboard-text="<?php echo $actuallink; ?>" data-toggle="tooltip" data-placement="bottom" title="Copy"><i class="far fa-copy"></i></button>
+    <div class="container">
+      <div class="text-center">
+        <img src="img/logo.png" style="max-width:30%;" class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="0.5s" alt="PHP bootstrap">
       </div>
 
+      <br>
 
+      <div class="card text-white bg-dark wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s">
+        <img src="img/ogimage.jpg" class="card-img-top" alt="PHP bootstrap">
+        <div class="card-body">
+          <h5 class="card-title">PHP bootstrap</h5>
+          <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s"><?= _Hello ?></p>
+          <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s"><?php echo "$ipaddress"; ?> <img width="30px" src="img/avatar/avatar_<?php echo(rand(1,$imagecount)); ?>.png" class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s"></p>
+          <p><?= _From ?>: <?php echo "$country"; ?> <img src='img/flags/24/<?php echo "$countryx"; ?>.png'/> <?= _onthe ?> <?php echo "$u_agentos"; ?> <img src='/img/icons/<?php echo "$u_agentos"; ?>.png'/> , <?php echo " $u_agent"; ?> <img src='img/icons/<?php echo "$u_agent"; ?>.png'/></p>
+          <hr>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button class="btn btn-danger btn-lg wow flash" type="button" data-clipboard-text="<?php echo $actuallink; ?>" data-toggle="tooltip" data-placement="bottom" title="Copy"><i class="far fa-copy"></i></button>
+        </div>
+    </div>
+
+    <br>
+    <div class="text-center">
       <lottie-player
-          src="img/lottie/rocket.json"  class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s" background="transparent"  speed="1"  style="weight: 100%;"  loop  autoplay >
+          src="img/lottie/rocket.json"  class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="1.5s" background="transparent"  speed="1"  style="weight: 100%;"  loop  autoplay >
       </lottie-player>
+    </div>
+
 
     </div>
 
@@ -79,6 +94,8 @@ Web: macropuslab.com
     <script src="js/pace.min.js"></script>
     <script src="js/lottie-player.js"></script>
     <script src="js/clipboard.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
 
     <script type="text/javascript" id="cookieinfo"
     		src="js/cookieinfo.min.js"

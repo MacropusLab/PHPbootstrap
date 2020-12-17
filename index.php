@@ -41,13 +41,15 @@ Web: macropuslab.com
           <span class="badge bg-primary">Bootstrap 5</span> <span class="badge bg-primary">Fontawesome 5</span> <span class="badge bg-primary">GeoIP</span> <span class="badge bg-primary">Multilingual</span>
            <span class="badge bg-primary">particles.js</span> <span class="badge bg-primary">Animate.css</span> <span class="badge bg-primary">pace.js</span> <span class="badge bg-primary">Lottie Player</span>
            <span class="badge bg-primary">clipboard.js</span> <span class="badge bg-primary">Cookie Info</span> <span class="badge bg-primary">Connect to MySQL (PDO)</span> <span class="badge bg-primary">Custom Style</span>
-           <span class="badge bg-success">Meta Tags</span> <span class="badge bg-success">Avatar</span> <span class="badge bg-success">Favicon</span> <span class="badge bg-success">Flags</span>
+           <span class="badge bg-success">Meta Tags</span> <span class="badge bg-success">Avatar</span> <span class="badge bg-success">Favicon</span> <span class="badge bg-success">Flags</span> <span class="badge bg-success">.htaccess</span>
          </p>
           <button class="btn btn-danger btn-lg wow flash" type="button" data-clipboard-text="<?php echo $actuallink; ?>" data-toggle="tooltip" data-placement="bottom" title="Copy"><i class="far fa-copy"></i></button>
         </div>
         <div class="card-footer">
-
-  </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+          <a class="btn btn-danger" href="https://macropuslab.com/product/php-bootstrap-starter-pack/" target="_blank" type="button"><?= _Download ?> <i class="fas fa-cloud-download-alt"></i></a>
+          </div>
+        </div>
     </div>
 
     <br>

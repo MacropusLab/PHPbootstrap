@@ -39,7 +39,7 @@ Web: macropuslab.com
     <br>
     <div class="text-center">
       <lottie-player
-          src="img/lottie/rocket.json"  class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="1.5s" background="transparent"  speed="1"  style="weight: 100%;"  loop  autoplay >
+          src="img/lottie/cookie.json"  class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="1.5s" background="transparent"  speed="1"  style="weight: 100%;"  loop  autoplay >
       </lottie-player>
     </div>
 

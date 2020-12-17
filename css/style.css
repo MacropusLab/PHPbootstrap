@@ -14,3 +14,8 @@ body
   height: 100%;
 	background: $background
 }
+
+.badge
+{
+  margin-top: 3px !important;
+}

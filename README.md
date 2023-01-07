@@ -6,7 +6,7 @@ Main Features:
 
 Bootstrap v5.3
 
-Fontawesome 5
+Font Awesome 6
 
 GeoIP
 

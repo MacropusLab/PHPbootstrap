@@ -4,7 +4,7 @@ PHP Bootstrap contains all the necessary tools to create a new php website.
 
 Main Features:
 
-Bootstrap 5
+Bootstrap v5.3
 
 Fontawesome 5
 

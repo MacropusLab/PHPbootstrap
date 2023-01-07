@@ -38,7 +38,7 @@ Web: macropuslab.com
           <p><?= _From ?>: <?php echo "$country"; ?> <img src='img/flags/24/<?php echo "$countryx"; ?>.png'/> <?= _onthe ?> <?php echo "$u_agentos"; ?> <img src='img/icons/<?php echo "$u_agentos"; ?>.png'/> , <?php echo " $u_agent"; ?> <img src='img/icons/<?php echo "$u_agent"; ?>.png'/></p>
           <hr>
           <p class="card-text"><?= _Features ?>
-          <span class="badge bg-primary">Bootstrap 5</span> <span class="badge bg-primary">Fontawesome 5</span> <span class="badge bg-primary">GeoIP</span> <span class="badge bg-primary">Multilingual</span>
+          <span class="badge bg-primary">Bootstrap v 5.3</span> <span class="badge bg-primary">Fontawesome 5</span> <span class="badge bg-primary">GeoIP</span> <span class="badge bg-primary">Multilingual</span>
            <span class="badge bg-primary">particles.js</span> <span class="badge bg-primary">Animate.css</span> <span class="badge bg-primary">pace.js</span> <span class="badge bg-primary">Lottie Player</span>
            <span class="badge bg-primary">clipboard.js</span> <span class="badge bg-primary">Cookie Info</span> <span class="badge bg-primary">Connect to MySQL (PDO)</span> <span class="badge bg-primary">Custom Style</span>
            <span class="badge bg-success">Meta Tags</span> <span class="badge bg-success">Avatar</span> <span class="badge bg-success">Favicon</span> <span class="badge bg-success">Flags</span> <span class="badge bg-success">.htaccess</span>

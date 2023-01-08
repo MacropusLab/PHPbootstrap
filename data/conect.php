@@ -34,7 +34,7 @@ catch(PDOException $e)
     $imagecount = count(glob("img/avatar/*.png"));
 
     $main_language = "english";
-    
+
     // Set Language variable
     if(isset($_GET['lang']) && !empty($_GET['lang'])){
      $_SESSION['lang'] = $_GET['lang'];
@@ -74,5 +74,16 @@ catch(PDOException $e)
       $u_agentosinfo = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : "unknown";
       include("data/agent.php");
       include("data/contryselect.php");
+
+      // Set style variable
+if(isset($_GET['style']) && !empty($_GET['style'])){
+ $_SESSION['style'] = $_GET['style'];
+ if(isset($_SESSION['style']) && $_SESSION['style'] != $_GET['style']){
+  echo "<script type='text/javascript'> location.reload(); </script>";
+ }
+}
+
+$styleselect = isset($_SESSION['style']) ? $_SESSION['style'] : "light";
+
 
  ?>

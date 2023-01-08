@@ -2,11 +2,15 @@ PHP Bootstrap – Starter pack: Save time on a new project!
 
 PHP Bootstrap contains all the necessary tools to create a new php website.
 
+Demo: https://macropuslab.com/Demo/PHPbootstrap/
+
 Main Features:
 
 Bootstrap v5.3
 
 Font Awesome 6
+
+Dark/Light mode
 
 GeoIP
 

@@ -29,15 +29,6 @@ Web: macropuslab.com
       <div class="card rounded wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s" data-bs-theme="<?php echo "$styleselect"; ?>">
         <div class="card-body text-center">
           <h5 class="card-title">PHP Bootstrap <i class="fa-brands fa-php"></i></h5>
-          <?php
-    if (isset($_SESSION['style']) && $_SESSION['style'] == 'dark') {
-        echo "<a class='btn btn-success btn-sm' href='$actuallink?style=light' role='button'><i class='fas fa-sun'></i></a>";
-    }
-    else {
-      echo "<a class='btn btn-success btn-sm' href='$actuallink?style=dark' role='button'><i class='fas fa-moon'></i></a>";
-
-    }
-     ?>
           <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s"><?= _Hello ?></p>
           <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s"><?php echo "$ipaddress"; ?>
           <br>

@@ -76,14 +76,15 @@ catch(PDOException $e)
       include("data/contryselect.php");
 
       // Set style variable
-if(isset($_GET['style']) && !empty($_GET['style'])){
- $_SESSION['style'] = $_GET['style'];
- if(isset($_SESSION['style']) && $_SESSION['style'] != $_GET['style']){
-  echo "<script type='text/javascript'> location.reload(); </script>";
- }
-}
-
-$styleselect = isset($_SESSION['style']) ? $_SESSION['style'] : "light";
+      $time = date("h:i");
+      $sunoff = date_sunset(time());
+      $sunon = date_sunrise(time());
+      if ($time < $sunoff && $time > $sunon){
+        $styleselect = "light";
+      }
+      else {
+        $styleselect = "dark";
+      }
 
 
  ?>
